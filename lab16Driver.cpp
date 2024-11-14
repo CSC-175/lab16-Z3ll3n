@@ -2,9 +2,11 @@
 #include "./lab16.cpp"
 using namespace std;
 
+static int gcf(int, int);
+
 int main()
 {
-    int a, b;
+    static int a, b;
 
     cout <<" Enter two integer values you want to find the GCF of: ";
     cin >> a >> b;
